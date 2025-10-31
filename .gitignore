@@ -1,0 +1,19 @@
+# Node.js: Ignore all downloaded packages
+# This is the most important one!
+/node_modules/
+
+# Environment variables
+# This file holds secret keys (passwords, API keys)
+# NEVER commit this to GitHub
+.env
+
+# Log files
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# VS Code / Codespace files
+.vscode/
